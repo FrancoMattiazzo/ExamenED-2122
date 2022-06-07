@@ -20,6 +20,7 @@ namespace ExamenED2122
         private void btCalcular_Click(object sender, EventArgs e)
         {
             double importeFAM = Convert.ToDouble(txtImporte.Text);
+            //prueba
             double IVAFAM = 0.21;
             if (rbReducido.Checked == true)  // IVA reducido, 10%
                 IVAFAM = 0.1;
