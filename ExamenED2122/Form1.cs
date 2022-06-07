@@ -21,6 +21,7 @@ namespace ExamenED2122
         {
             double importeFAM = Convert.ToDouble(txtImporte.Text);
             double IVAFAM = 0.21;
+            //rama 2
             if (rbReducido.Checked == true)  // IVA reducido, 10%
                 IVAFAM = 0.1;
             if (rbSuper.Checked == true)  // IVA super reducido, 4%
